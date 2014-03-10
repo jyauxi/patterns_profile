@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the patterns installation profile.
+ */
+
+/**
+ * Implements hook_install().
+ * Perform actions to set up the site for this profile.
+ * @see system_install()
+ */
+function patterns_profile_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+}

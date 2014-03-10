@@ -1,0 +1,43 @@
+name = NESPAP Patterns Distribution
+description = Install a minimal distribution ready to run Patterns
+version = VERSION
+core = 7.x
+
+; Core modules
+dependencies[] = block
+; dependencies[] = color
+dependencies[] = comment
+; dependencies[] = contextual
+; dependencies[] = dashboard
+; dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+; dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+; dependencies[] = search
+; dependencies[] = shortcut
+; dependencies[] = toolbar
+; dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+; dependencies[] = rdf
+
+;Enable contrib modules
+dependencies[] = libraries
+dependencies[] = token
+dependencies[] = macro
+
+;Enable patterns module and submodules
+dependencies[] = patterns
+dependencies[] = patterns_export
+dependencies[] = patterns_components
+dependencies[] = patterns_xmlparser
+dependencies[] = patterns_phpparser
+dependencies[] = patterns_yamlparser
+
+files[] = patterns_profile.profile
+
